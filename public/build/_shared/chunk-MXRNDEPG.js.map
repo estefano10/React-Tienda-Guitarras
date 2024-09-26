@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/utils/helpers.js"],
+  "sourcesContent": ["// REMIX HMR BEGIN\nimport * as __hmr__ from \"remix:hmr\";\nif (import.meta) {\nimport.meta.hot = __hmr__.createHotContext(\n//@ts-expect-error\n\"app\\\\utils\\\\helpers.js\"\n);\nimport.meta.hot.lastModified = \"1695662358351.8176\";\n}\n// REMIX HMR END\n\nexport const formatearFecha = fecha => {\r\n    \r\n    const fechaNueva = new Date(fecha)\r\n    const opciones = {\r\n        year: 'numeric',\r\n        month: 'long',\r\n        day: '2-digit'\r\n    }\r\n    return fechaNueva.toLocaleDateString('es-ES', opciones)\r\n}"],
+  "mappings": ";;;;;AAEA,IAAI,aAAa;AACjB,cAAY,MAAc;AAAA;AAAA,IAE1B;AAAA,EACA;AACA,cAAY,IAAI,eAAe;AAC/B;AAGO,IAAM,iBAAiB,WAAS;AAEnC,QAAM,aAAa,IAAI,KAAK,KAAK;AACjC,QAAM,WAAW;AAAA,IACb,MAAM;AAAA,IACN,OAAO;AAAA,IACP,KAAK;AAAA,EACT;AACA,SAAO,WAAW,mBAAmB,SAAS,QAAQ;AAC1D;",
+  "names": []
+}
